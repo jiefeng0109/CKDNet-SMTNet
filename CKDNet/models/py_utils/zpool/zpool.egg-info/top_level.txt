@@ -1,0 +1,4 @@
+bottom_pooling
+left_pooling
+right_pooling
+top_pooling

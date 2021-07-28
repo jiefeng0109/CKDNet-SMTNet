@@ -1,0 +1,2 @@
+int right_pooling_forward_cuda(THCudaTensor *x_tensor, int w, int h, int c, int batch, THCudaTensor *offset, THCudaTensor *forward_ind, THCudaTensor *out_tensor);
+int right_pooling_backward_cuda(THCudaTensor *x_tensor, int w, int h, int c, int batch, THCudaTensor *backward_ind, THCudaTensor *out_tensor);
